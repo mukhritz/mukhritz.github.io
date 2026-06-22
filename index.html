@@ -3,35 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Mukhritz | Portfolio</title>
+    <title>Muhammad Mukhritz Al Iman | Data Engineer Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-950 text-gray-100 font-sans antialiased">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
 
-    <!-- Navbar -->
-    <nav class="border-b border-gray-800 bg-gray-900 bg-opacity-50 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="text-xl font-bold text-cyan-400">Mukhritz.dev</span>
-            <div class="space-x-6 text-sm font-medium text-gray-300">
-                <a href="#about" class="hover:text-cyan-400 transition">About</a>
-                <a href="#portfolios" class="hover:text-cyan-400 transition">Portfolios</a>
-                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+    <!-- Navigation Bar -->
+    <nav class="border-b border-slate-800 bg-slate-900 bg-opacity-70 backdrop-blur-md sticky top-0 z-50 transition-all">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tight text-white">Mukhritz<span class="text-cyan-400">.io</span></span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+                <a href="#portfolios" class="hover:text-cyan-400 transition-colors">Academic Portfolios</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors">Featured Projects</a>
+                <a href="#credentials" class="hover:text-cyan-400 transition-colors">Credentials</a>
             </div>
+            <a href="mailto:iman96859@gmail.com" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-4 py-2 rounded-lg text-sm font-semibold shadow-lg shadow-cyan-500/20 transition-all">
+                Get In Touch
+            </a>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header id="about" class="max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
-        <h1 class="text-5xl font-extrabold tracking-tight text-white sm:text-6xl">
-            Muhammad Mukhritz Al Iman
+    <header id="about" class="max-w-6xl mx-auto px-6 pt-24 pb-20 flex flex-col items-center text-center relative">
+        <div class="absolute top-10 left-1/2 -translate-x-1/2 w-72 h-72 bg-cyan-500/10 blur-3xl rounded-full pointer-events-none"></div>
+        
+        <span class="px-3 py-1 text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-500/10 rounded-full border border-cyan-500/20">
+            Available for Internships and Collaborations
+        </span>
+        
+        <h1 class="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-6xl max-w-4xl leading-tight">
+            Engineering Secure Data Pipelines and Building <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">Intelligent Systems</span>
         </h1>
-        <p class="mt-4 text-xl text-cyan-400 font-medium">
-            Aspiring Data Engineer and Full Stack Developer
+        
+        <p class="mt-6 max-w-2xl text-lg text-slate-400 leading-relaxed">
+            Hello, I am Muhammad Mukhritz Al Iman, a Data Engineering student at Universiti Teknologi Malaysia. I specialize in backend systems architecture, programmatic data cleaning workflows, full stack web development, and cloud computing infrastructures.
         </p>
-        <p class="mt-6 max-w-2xl mx-auto text-gray-400 leading-relaxed">
-            Data Engineering undergraduate student at Universiti Teknologi Malaysia. I specialize in turning raw data architectures into functional, beautiful software solutions.
-        </p>
+        
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+            <a href="#projects" class="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-6 py-3 rounded-xl font-medium transition-all text-center">
+                Explore My Work
+            </a>
+            <a href="https://www.linkedin.com/in/Muhammad Mukhriz" target="_blank" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold px-6 py-3 rounded-xl shadow-xl shadow-cyan-500/10 transition-all text-center">
+                Connect on LinkedIn
+            </a>
+        </div>
     </header>
+
+    <!-- Academic Repositories Section -->
+    <section id="portfolios" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h2 class="text-3xl font-bold tracking-tight text-white">Academic E Portfolios</h2>
+            <p class="mt-2 text-slate-400">Access my dedicated code repositories mapping out my comprehensive growth, complete project folders, and detailed learning reflections across each academic year.</p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-3">
+            <!-- Year 1 -->
+            <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between group">
+                <div>
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 font-bold mb-4">01</div>
+                    <h3 class="text-xl font-semibold text-white group-hover:text-cyan-400 transition-colors">Year 1 Foundation</h3>
+                    <p class="mt-2 text-sm text-slate-400 leading-relaxed">Core computing logic, programming techniques, digital systems, structural logic, discrete mathematics, and fundamental human computer interactions.</p>
+                </div>
+                <a href="PASTE_YOUR_YEAR_X_REPOSITORY_LINK_HERE" class="mt-6 inline-flex items-center text-sm font-semibold text-cyan-400 hover:text-cyan-300">
+                    View Repository <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+            </div>
+
+            <!-- Year 2 -->
+            <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between group">
+                <div>
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 font-bold mb-4">02</div>
+                    <h3 class="text-xl font-semibold text-white group-hover:text-cyan-400 transition-colors">Year 2 Intermediate</h3>
+                    <p class="mt-2 text-sm text-slate-400 leading-relaxed">Advanced data structures, relational database management systems, network protocols, full stack web development architectures, data mining, and operating systems.</p>
+                </div>
+                <a href="PASTE_YOUR_YEAR_X_REPOSITORY_LINK_HERE" class="mt-6 inline-flex items-center text-sm font-semibold text-cyan-400 hover:text-cyan-300">
+                    View Repository <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+            </div>
+
+            <!-- Year 3 -->
+            <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between group">
+                <div>
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 font-bold mb-4">03</div>
+                    <h3 class="text-xl font-semibold text-white group-hover:text-cyan-400 transition-colors">Year 3 Specialized</h3>
+                    <p class="mt-2 text-sm text-slate-400 leading-relaxed">Artificial intelligence frameworks, heuristic optimizations, advanced server side database programming, stored procedures, and scalable enterprise modeling systems.</p>
+                </div>
+                <a href="PASTE_YOUR_YEAR_X_REPOSITORY_LINK_HERE" class="mt-6 inline-flex items-center text-sm font-semibold text-cyan-400 hover:text-cyan-300">
+                    View Repository <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
+        <div class="grid md:grid-cols-3 gap-10">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight text-white">Technical Arsenal</h2>
+                <p class="mt-3 text-slate-400 leading-relaxed">A summary of the programming languages, software platforms, data analytics environments, and cloud infrastructure tools I use to build technical solutions.</p>
+                <div class="mt-6 flex flex-wrap gap-4">
+                    <span class="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-lg text-xs font-medium text-slate-300">Malay Native</span>
+                    <span class="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-lg text-xs font-medium text-slate-300">English Professional</span>
+                </div>
+            </div>
+            <div class="md:col-span-2 grid gap-6 sm:grid-cols-2">
+                <div class="bg-slate-900/20 p-6 rounded-xl border border-slate-900">
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Programming Languages</h3>
+                    <p class="mt-3 text-slate-300 leading-relaxed text-sm">Python, Java, JavaScript, PHP, C++, HTML, CSS, Bootstrap, Flutter</p>
+                </div>
+                <div class="bg-slate-900/20 p-6 rounded-xl border border-slate-900">
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Tools and Platforms</h3>
+                    <p class="mt-3 text-slate-300 leading-relaxed text-sm">GitHub, MySQL, Alteryx, SAP Build Apps, Microsoft Power Apps, Laragon, Visual Studio Code</p>
+                </div>
+                <div class="bg-slate-900/20 p-6 rounded-xl border border-slate-900">
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Core Capabilities</h3>
+                    <p class="mt-3 text-slate-300 leading-relaxed text-sm">Data processing automation, data blending, database normalization, system diagram modeling, server side optimizations</p>
+                </div>
+                <div class="bg-slate-900/20 p-6 rounded-xl border border-slate-900">
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Professional Leadership</h3>
+                    <p class="mt-3 text-slate-300 leading-relaxed text-sm">Agile team management, milestone tracking, technical infrastructure deployment, stakeholder communication</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight text-white">Featured Projects</h2>
+                <p class="mt-2 text-slate-400 max-w-xl">Demonstrated evidence of engineered full stack systems, dashboard creation, and agile software development lifecycle execution.</p>
+            </div>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2">
+            <!-- PIKOM -->
+            <div class="bg-slate-900/30 border border-slate-800 p-8 rounded-3xl flex flex-col justify-between hover:border-slate-700 transition-all">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Full Stack System</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">PIKOM Membership Management System</h3>
+                    <p class="mt-4 text-sm text-slate-400 leading-relaxed">Engineered a comprehensive administration portal for a major national ICT industry body. Developed utilizing Microsoft Power Apps Canvas App alongside Dataverse infrastructure. Built structured application review paths, status trackers, and automated client message workflows using Power Automate, integrating role-based access security parameters and real-time query filtering matrices.</p>
+                </div>
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Microsoft Power Apps</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Dataverse</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Power Automate</span>
+                </div>
+            </div>
+
+            <!-- UTHM -->
+            <div class="bg-slate-900/30 border border-slate-800 p-8 rounded-3xl flex flex-col justify-between hover:border-slate-700 transition-all">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Enterprise Subsystem</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">UTHM HRMS Recruitment Subsystem</h3>
+                    <p class="mt-4 text-sm text-slate-400 leading-relaxed">Constructed the core recruitment node for the UTHM Human Resource Management platform. Leveraged SAP Build Apps environment to code an interactive portal for job candidates alongside an administrative hub interface tailored for HR coordinators. Embedded instant search capabilities, automated notification channels, and dynamic status visibility layers.</p>
+                </div>
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">SAP Build Apps</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Enterprise Systems</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">HRMS Modeling</span>
+                </div>
+            </div>
+
+            <!-- Datathon -->
+            <div class="bg-slate-900/30 border border-slate-800 p-8 rounded-3xl flex flex-col justify-between hover:border-slate-700 transition-all">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Data Analytics</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">MDIT x DOSM Datathon Platform</h3>
+                    <p class="mt-4 text-sm text-slate-400 leading-relaxed">Assembled an interactive data visualization dashboard investigating income disparity ratios across national economic classes, analyzing B40, M40, and T20 demographic data. Created predictive visual data models within Strategy One to safely translate intricate numeric trends into actionable strategy targets for executive decision makers.</p>
+                </div>
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Strategy One</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Data Visualization</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Demographic Analytics</span>
+                </div>
+            </div>
+
+            <!-- Big Fish Game -->
+            <div class="bg-slate-900/30 border border-slate-800 p-8 rounded-3xl flex flex-col justify-between hover:border-slate-700 transition-all">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Software Innovation</span>
+                    <h3 class="text-2xl font-bold text-white mt-2">The Big Fish Game Development</h3>
+                    <p class="mt-4 text-sm text-slate-400 leading-relaxed">Directed the structural codebase assembly for a custom 2D interaction game built on the Unity architecture engine. Programmed algorithmic scaling rules for character growth trajectories, feature power-ups, and game engine mechanics. Optimized system rendering efficiency and graphic scaling modules, earning a Gold Medal at the national DICE 3.0 competition.</p>
+                </div>
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">Unity 2D</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">C Sharp</span>
+                    <span class="px-2 py-1 bg-slate-900 border border-slate-800 rounded text-xs text-slate-400">DICE 3.0 Gold Medal</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credentials Section -->
+    <section id="credentials" class="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900">
+        <div class="grid md:grid-cols-3 gap-10">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight text-white">Certifications and Milestones</h2>
+                <p class="mt-2 text-slate-400">Verified international industry certifications validating technical competencies in cloud environments and enterprise analytics workflows.</p>
+                
+                <div class="mt-8 bg-slate-900/50 p-6 rounded-2xl border border-slate-800">
+                    <h4 class="text-sm font-semibold uppercase text-slate-400 tracking-wider">Academic Record</h4>
+                    <div class="mt-4 space-y-4">
+                        <div>
+                            <p class="text-xs text-cyan-400 font-medium">Universiti Teknologi Malaysia</p>
+                            <p class="text-lg font-bold text-white">CGPA 3.57</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-cyan-400 font-medium">MARA Foundation College</p>
+                            <p class="text-lg font-bold text-white">CGPA 3.98</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 space-y-4">
+                <!-- Cert 1 -->
+                <div class="p-6 bg-slate-900/30 rounded-xl border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-white">Alteryx Designer Core Certification</h3>
+                        <p class="text-sm text-slate-400 mt-1">Issued by Alteryx Corporation. Confirms expert capabilities in automated data preparation structures, advanced parsing logic, and multi stream data blending analytics workflows.</p>
+                    </div>
+                    <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20 shrink-0 self-start sm:self-center">Verified 2026</span>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="p-6 bg-slate-900/30 rounded-xl border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-white">Microsoft Certified: Azure Data Fundamentals</h3>
+                        <p class="text-sm text-slate-400 mt-1">Issued by Microsoft Corporation. Validates core architectural grasp of cloud data structures, relational and non-relational database management systems, and specialized Azure cloud data tooling.</p>
+                    </div>
+                    <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20 shrink-0 self-start sm:self-center">Verified 2026</span>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="p-6 bg-slate-900/30 rounded-xl border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-white">Microsoft Skill2Work Program</h3>
+                        <p class="text-sm text-slate-400 mt-1">Certified systems training curriculum covering advanced computer science infrastructure models and corporate scale physical data center storage ecosystem operations.</p>
+                    </div>
+                    <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20 shrink-0 self-start sm:self-center">Verified 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Connection -->
+    <footer class="border-t border-slate-900 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <p class="text-lg font-bold text-white">Let us construct something innovative together.</p>
+                <p class="text-sm text-slate-500 mt-1">Muhammad Mukhritz Al Iman | Data Engineering Professional Portfolio</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="mailto:iman96859@gmail.com" class="text-slate-400 hover:text-white transition-colors text-sm">Email</a>
+                <a href="https://www.github.com/mukhritz" target="_blank" class="text-slate-400 hover:text-white transition-colors text-sm">GitHub</a>
+                <a href="https://www.linkedin.com/in/Muhammad Mukhriz" target="_blank" class="text-slate-400 hover:text-white transition-colors text-sm">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
